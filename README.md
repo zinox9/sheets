@@ -10,4 +10,4 @@
 
 ### Table of Contents:
 
-- #### **[Git & Github Cheat Sheet](./Git_&_Github.md)**
+- #### **[Git & Github Cheat Sheet](./git.md)**
