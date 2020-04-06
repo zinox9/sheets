@@ -2,21 +2,21 @@
 
 #### Table Of Contents
 
-##### [Git & Github Cheatsheet](#Git & Github Cheatsheet)
+##### [Git & Github Cheatsheet](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#git--github-cheatsheet)
 
-- [Creating repo](#Creating repo)
-- [Staging](Staging)
-- [Commiting](#Commiting ) & Stash
-- [Gitignore](#Gitignore)
-- [Reverting & Reset](#Reverting & Reset)
-- [Branches](#Branches)
-- [Merging branches](#Merging branches) & Conflicts, Rebasing
+- [Creating repo](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#creating-repo)
+- [Staging](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#staging)
+- [Commiting](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#commiting) & Stash
+- [Gitignore](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#gitignore)
+- [Reverting & Reset](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#reverting--reset)
+- [Branches](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#branches)
+- [Merging branches](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#merging-branches) & Conflicts, Rebasing
 
-##### [Github](#Github)
+##### [Github](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#github-1)
 
-- [Creating new & Cloning Repo](#Creating new & Cloning Repo)
-- [Collaborating](#Collaborating)
-- [Forking (Contributing)](#Forking (Contributing))
+- [Creating new & Cloning Repo](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#creating-new--cloning-repo)
+- [Collaborating](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#collaborating)
+- [Forking (Contributing)](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#forking-contributing)
 
 ---
 
