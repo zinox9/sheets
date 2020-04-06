@@ -2,7 +2,7 @@
 
 #### Table Of Contents
 
-##### [Git & Github Cheatsheet](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#git--github-cheatsheet)
+**[Git & Github Cheatsheet](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#git--github-cheatsheet)**
 
 - [Creating repo](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#creating-repo)
 - [Staging](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#staging)
@@ -12,7 +12,7 @@
 - [Branches](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#branches)
 - [Merging branches](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#merging-branches) & Conflicts, Rebasing
 
-##### [Github](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#github-1)
+**[Github](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#github-1)**
 
 - [Creating new & Cloning Repo](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#creating-new--cloning-repo)
 - [Collaborating](https://github.com/zinox9/cheatsheets/blob/master/Git_&_Github.md#collaborating)
