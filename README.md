@@ -1,4 +1,4 @@
-![Preview](./images/cheatsheets.png)
+![Preview](./images/cheatsheet.png)
 
 
 
