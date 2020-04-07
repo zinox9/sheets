@@ -50,10 +50,9 @@
 - `git log --oneline` = shows all the commits in one line each
 
 - **SPECIAL log** : this will log the info in a nice format 
-
-  - ```cmd
+```cmd
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    ```
+```
   - this can be used as an alias
     
       
