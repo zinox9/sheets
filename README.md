@@ -1,13 +1,23 @@
-![Preview](./images/cheatsheet.png)
+![Preview](./images/sheets.png)
 
 
 
-# Cheatsheets Collection
+# Sheets Collection
 
-> ### This is a collection of all the cheatsheets shared by me.
+> ### This is a collection of all of mine programming related cheat sheets and reference sheets
+
+**Cheat Sheets - ** They contain the daily use codes/properties of the specific tool at one place.
+
+**Reference Sheets -** They contain all the references that can be useful on the path to study the specific tool.  
 
 ---
 
-### Table of Contents:
+### Cheat Sheets 
 
-- #### **[Git & Github Cheat Sheet](./git.md)**
+- **[Git & Github](./cheatsheets/git.md)**
+
+---
+
+### Reference Sheets
+
+- [**HTML, CSS & Responsiveness**](./refsheets/htmlcss.md)
