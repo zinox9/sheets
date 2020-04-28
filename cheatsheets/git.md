@@ -2,21 +2,21 @@
 
 #### Table Of Contents
 
-**[Git & Github Cheatsheet](https://github.com/zinox9/cheatsheets/blob/master/git.md#git--github-cheatsheet)**
+**[Git & Github Cheatsheet](#git--github-cheatsheet)**
 
-- [Creating repo](https://github.com/zinox9/cheatsheets/blob/master/git.md#creating-repo)
-- [Staging](https://github.com/zinox9/cheatsheets/blob/master/git.md#staging)
-- [Commiting](https://github.com/zinox9/cheatsheets/blob/master/git.md#commiting) & Stash
-- [Gitignore](https://github.com/zinox9/cheatsheets/blob/master/git.md#gitignore)
-- [Reverting & Reset](https://github.com/zinox9/cheatsheets/blob/master/git.md#reverting--reset)
-- [Branches](https://github.com/zinox9/cheatsheets/blob/master/git.md#branches)
-- [Merging branches](https://github.com/zinox9/cheatsheets/blob/master/git.md#merging-branches) & Conflicts, Rebasing
+- [Creating repo](#creating-repo)
+- [Staging](#staging)
+- [Commiting](#commiting) & Stash
+- [Gitignore](#gitignore)
+- [Reverting & Reset](#reverting--reset)
+- [Branches](#branches)
+- [Merging branches](#merging-branches) & Conflicts, Rebasing
 
-**[Github](https://github.com/zinox9/cheatsheets/blob/master/git.md#github)**
+**[Github](#github)**
 
-- [Creating new & Cloning Repo](https://github.com/zinox9/cheatsheets/blob/master/git.md#creating-new--cloning-repo)
-- [Collaborating](https://github.com/zinox9/cheatsheets/blob/master/git.md#collaborating)
-- [Forking (Contributing)](https://github.com/zinox9/cheatsheets/blob/master/git.md#forking-contributing)
+- [Creating new & Cloning Repo](#creating-new--cloning-repo)
+- [Collaborating](#collaborating)
+- [Forking (Contributing)](#forking-contributing)
 
 ---
 

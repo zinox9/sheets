@@ -2,24 +2,24 @@
 
 #### Table Of Contents
 
-**[HTML , CSS & Responsiveness Reference Sheet](#HTML , CSS & Responsiveness Reference Sheet)**
+**[HTML , CSS & Responsiveness Reference Sheet](#html--css--responsiveness-reference-sheet)**
 
 - **[HTML](#HTML)**
-  - [Basic HTML](#Basic HTML)
-  - [Useful Elements](#Useful Elements)
+  - [Basic HTML](#basic-html)
+  - [Useful Elements](#useful-elements)
 - **[CSS](#CSS)**
-  - [Basic CSS](#Basic CSS)
+  - [Basic CSS](#basic-css)
   - [Positioning](#Positioning)
   - [Animations](#Animations)
-  - [Images & Transformation](#Images & Transformation)
-  - [Styling Forms](#Styling Forms)
-  - [Useful Properties](#Useful Properties)
+  - [Images & Transformation](#images--transformation)
+  - [Styling Forms](#styling-forms)
+  - [Useful Properties](#useful-properties)
 - **[Responsiveness](#Responsiveness)**
-  - [Screen Width Usage](#Screen Width Usage)
-  - [Order to apply Media queries](#Order to apply Media queries  )
-  - [Handling Images](#Handling Images)
-  - [Feature Queries](#Feature Queries)
-- **[Other Useful Concepts](#Other Useful Concepts)**
+  - [Screen Width Usage](#screen-width-usage)
+  - [Order to apply Media queries](#order-to-apply-media-queries)
+  - [Handling Images](#handling-images)
+  - [Feature Queries](#feature-queries)
+- **[Other Useful Concepts](#other-useful-concepts)**
 
 # HTML , CSS & Responsiveness Reference Sheet
 
@@ -33,7 +33,7 @@
 
 ### Basic HTML
 
-- **All Tags - ** [**Reference**](https://htmlreference.io/)
+- **All Tags -** [**Reference**](https://htmlreference.io/)
 - **Class & ID -** [Usage](https://css-tricks.com/the-difference-between-id-and-class/)
 - **Adding CSS & other files -** [Link Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) 
 - **Adding JS -** [Script](https://www.tutorialsteacher.com/javascript/script-tag)
@@ -55,38 +55,38 @@
 
 - **Box Model -** [Explained](https://css-tricks.com/box-sizing/)
 - **Selectors -** [All Pseudo Selectors](https://css-tricks.com/pseudo-class-selectors/) & [Common 30 Cheatsheet](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-- **Positioning - ** [Relative, Absolute & Other](https://css-tricks.com/almanac/properties/p/position/)
+- **Positioning -** [Relative, Absolute & Other](https://css-tricks.com/almanac/properties/p/position/)
 - **States -**  [Link](https://css-tricks.com/almanac/selectors/l/link/) | [Visited](https://css-tricks.com/almanac/selectors/v/visited/) | [Hover](https://css-tricks.com/almanac/selectors/h/hover/) | [Active](https://css-tricks.com/almanac/selectors/a/active/) | [Focus](https://css-tricks.com/almanac/selectors/f/focus/)
 - **After & Before Elements -**   [Reference](https://css-tricks.com/almanac/selectors/a/after-and-before/) | [Applications](https://bryanlrobinson.com/blog/2018/08/07/top-3-uses-of-after-and-before-css-pseudo-elements/)
-- **Pseudo Class Selectors - ** [:not](https://css-tricks.com/almanac/selectors/n/not/) | [:nth-child](https://css-tricks.com/almanac/selectors/n/nth-child/) | [others](https://css-tricks.com/pseudo-class-selectors/)
-- **Special Functions - ** [calc()](https://css-tricks.com/a-complete-guide-to-calc-in-css/) | [others](https://www.sitepoint.com/8-clever-tricks-with-css-functions/)
-- **Variables - **  [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- **Pseudo Class Selectors -** [:not](https://css-tricks.com/almanac/selectors/n/not/) | [:nth-child](https://css-tricks.com/almanac/selectors/n/nth-child/) | [others](https://css-tricks.com/pseudo-class-selectors/)
+- **Special Functions -** [calc()](https://css-tricks.com/a-complete-guide-to-calc-in-css/) | [others](https://www.sitepoint.com/8-clever-tricks-with-css-functions/)
+- **Variables -**  [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 ### Positioning
 
-- **Floats - ** [All About Floats](https://css-tricks.com/all-about-floats/)
-- **Display - ** [block, inline, inline-block, tables](https://css-tricks.com/almanac/properties/d/display/)
+- **Floats -** [All About Floats](https://css-tricks.com/all-about-floats/)
+- **Display -** [block, inline, inline-block, tables](https://css-tricks.com/almanac/properties/d/display/)
 - **Flexbox -** [Explanation](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) , [Cheatsheet](http://flexbox.malven.co/)
 - **Grids -** [Explanation](https://css-tricks.com/snippets/css/complete-guide-grid/) , [Cheatsheet](http://grid.malven.co/)
 
 ### Animations
 
 - **Creating Animations -** [Reference](https://css-tricks.com/almanac/properties/a/animation/)
-- **Using Animations - **[Transition](https://css-tricks.com/almanac/properties/t/transition/)
+- **Using Animations -**[Transition](https://css-tricks.com/almanac/properties/t/transition/)
 - **Cubic Bezier**: [Create Your Own](http://cubic-bezier.com/#.63,-0.94,.55,1.87) or [Premade](https://easings.net/#)
 
 ### Images & Transformation
 
-- **Background Images & Gradients - ** [Reference](https://css-tricks.com/almanac/properties/b/background-image/)
-- **Transformation - ** [Transform](https://css-tricks.com/almanac/properties/t/transform/)
-- **Clipping & Masking - **   [Reference](https://css-tricks.com/clipping-masking-css/), [Clipping Tool](http://bennettfeely.com/clippy/)
+- **Background Images & Gradients -** [Reference](https://css-tricks.com/almanac/properties/b/background-image/)
+- **Transformation -** [Transform](https://css-tricks.com/almanac/properties/t/transform/)
+- **Clipping & Masking -**   [Reference](https://css-tricks.com/clipping-masking-css/), [Clipping Tool](http://bennettfeely.com/clippy/)
 
 ### Styling Forms
 
 - **Styling Inputs -** [Reference](https://css-tricks.com/styling-texty-inputs-only/)  
-- **Selectors - ** [:input-placholder](https://css-tricks.com/almanac/selectors/p/placeholder/) | [:input-placeholder-shown](https://css-tricks.com/almanac/selectors/p/placeholder-shown/) | [:valid](https://css-tricks.com/almanac/selectors/v/valid/)  | [:invalid](https://css-tricks.com/almanac/selectors/i/invalid/) | [:focus](https://css-tricks.com/almanac/selectors/f/focus/) 
+- **Selectors -** [:input-placholder](https://css-tricks.com/almanac/selectors/p/placeholder/) | [:input-placeholder-shown](https://css-tricks.com/almanac/selectors/p/placeholder-shown/) | [:valid](https://css-tricks.com/almanac/selectors/v/valid/)  | [:invalid](https://css-tricks.com/almanac/selectors/i/invalid/) | [:focus](https://css-tricks.com/almanac/selectors/f/focus/) 
 - **Other Inputs -** [Radio Button, Checkbox, Toggle Styling](https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/)
-- **Dropdown - ** [Reference](https://tympanus.net/codrops/2012/10/04/custom-drop-down-list-styling/)
+- **Dropdown -** [Reference](https://tympanus.net/codrops/2012/10/04/custom-drop-down-list-styling/)
 
 ### Useful Properties
 
@@ -109,7 +109,7 @@
 
 - **[Media Queries](https://css-tricks.com/css-media-queries/)**
 
-- **Meta Tag - ** `<meta name='viewport' content="width=device-width, initial-scale=1.0">`
+- **Meta Tag -** `<meta name='viewport' content="width=device-width, initial-scale=1.0">`
 
 ### Screen Width Usage  
 
@@ -126,12 +126,11 @@
 
 ### Handling Images
 
-- **Density Switching - **  high-res (2px for 1px) & low-res(1px for 1px)
+- **Density Switching -**  high-res (2px for 1px) & low-res(1px for 1px)
 
   - `<img srcset="img1x.png 1x, img2x.png 2x" alt="Image">`
 
 - **Art directions -** different images for different screen
-
   ```html
   <picture>
       #when lower than 600px
@@ -141,8 +140,7 @@
   </picture>
   ```
 
-- **Resolution Switching - ** large & small screen
-
+- **Resolution Switching -** large & small screen
   ```html
   #in srcset , the images are specified with their original width
   <img srcset="img1.png 300w, img1-large.png 1000w" 
@@ -150,8 +148,7 @@
   #in sizes , the screen size is speicified with the image width to be used, last one being the default size
   ```
 
-- **Handling Images in CSS - ** media queries combined with screen res & width
-
+- **Handling Images in CSS -** media queries combined with screen res & width
   ```css
   // for resolution greater than 1px and 600px width or webkit is for safari browser
   @media (min-resolution: 192pi) and (min-width:600px) ,
@@ -162,7 +159,6 @@
 ### Feature Queries
 
 - **Browser**
-
   ```css
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)){
   	-webkit-backdrop-filter: blur(10px);
@@ -172,21 +168,19 @@
   ```
 
 - **Touch Capability -** This will apply for small screen OR non hover screen.
-
   `@media only screen and (max-width: 56.25em),  only screen and (hover:none){}`
 
 ---
 
 ## Other Useful Concepts
 
-- **Optimizing Images - **By **cropping** or using [Optimizilla](https://imagecompressor.com/)
+- **Optimizing Images -** By **cropping** or using [Optimizilla](https://imagecompressor.com/)
 
 - **Search Engine Optimization -** By using [Meta tags](https://searchenginewatch.com/sew/how-to/2067564/how-to-use-html-meta-tags)
 
-- **Class Naming Convention - ** [BEM](https://css-tricks.com/bem-101/)
+- **Class Naming Convention -** [BEM](https://css-tricks.com/bem-101/)
 
-- **Global Reset **
-
+- **Global Reset**
   ```css
   * {
       margin: 0;
@@ -201,7 +195,6 @@
       /*
       Define project wide font family and size in body selector
       */
-}
+  }
   ```
-  
-  
+---
