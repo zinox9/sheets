@@ -133,27 +133,28 @@
 - **Art directions -** different images for different screen
   ```html
   <picture>
-      #when lower than 600px
+      <!-- when lower than 600px -->
   	<source srcset="imgsmall1x.png 1x, imgsmall2x.png 2x" media="(max-width: 37.5em)"> 
-      #using density switching with art directions
+      <!-- using density switching with art directions -->
       <img srcset="img1x.png 1x, img2x.png 2x" alt="img">
   </picture>
   ```
 
 - **Resolution Switching -** large & small screen
   ```html
-  #in srcset , the images are specified with their original width
+  <!-- in srcset , the images are specified with their original width-->
   <img srcset="img1.png 300w, img1-large.png 1000w" 
        sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px">
-  #in sizes , the screen size is speicified with the image width to be used, last one being the default size
+  <!-- in sizes , the screen size is speicified with the image width to be used, last one being the default size -->
   ```
 
 - **Handling Images in CSS -** media queries combined with screen res & width
   ```css
   // for resolution greater than 1px and 600px width or webkit is for safari browser
   @media (min-resolution: 192pi) and (min-width:600px) ,
-      (-webkit-min-device-pixel-ratio: 2) and (min-width:600px)
-  {image you want to set}
+      (-webkit-min-device-pixel-ratio: 2) and (min-width:600px){
+      // image you want to set
+      }
   ```
 
 ### Feature Queries
