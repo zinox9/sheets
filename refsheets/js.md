@@ -140,8 +140,8 @@
   - new object is created using , `new constructorName()` and assigning it to a variable 
     - We can create a prototype using  , `object.prototype`
     - We can inherit other constructors by using `call` method with parameters of parent constructor
-  - Constructors can also be created using `object.create` , where we specify the prototype first and then specify the data
-  - `object.create(parent.prototype)` can inherit the prototype of parent to child prototype
+  - Constructors can also be created using `Object.create` , where we specify the prototype first and then specify the data
+  - `Object.create(parent.prototype)` can inherit the prototype of parent to child prototype
   
 - **Primitives & Object**
   - Primitives hold the data directly  (number , strings)
