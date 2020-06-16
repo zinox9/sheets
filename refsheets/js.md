@@ -24,6 +24,8 @@
 
 > **Road Map to study JavaScript. Starting All the way from Basics to Advanced with references of useful links !** 
 
+A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**](./jsBehind.md)
+
 ---
 
 ## References
@@ -216,6 +218,12 @@
 -  **JSON** - JavaScript Object Notation  (json function is available inbuilt in js)
 - **AJAX** - Asynchronous Javascript and XML 
 - **CrossOrigins**
+
+
+
+This is Just the Beginning of your Journey in JavaScript , there's always soo much more to explore ! 
+
+A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**](./jsBehind.md)
 
 ---
 
