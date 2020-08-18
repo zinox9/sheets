@@ -170,6 +170,12 @@ graph TB
   style ch fill:lightgreen
   end
 ```
+```js
+// above code is a mermaid , currently not supported in github [18-08-20] , adding an image in its place.
+```
+
+![Permissions Graph](./images/cmdPermissions.png)
+
 - `chmod 700 file1` - makes the file read write exec only for user
 - `chmod 744 file1` - makes the file rwx for user , and read for others
 - `chmod 644 file1` - user can rw and others only read 
@@ -363,3 +369,6 @@ And **l**.  **^L** will appear in your text and will cause the printer to start
 A new page.
 
 ---
+```
+
+```
