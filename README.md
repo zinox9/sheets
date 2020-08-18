@@ -4,17 +4,18 @@
 
 # Sheets Collection
 
-> ### This is a collection of all of mine programming related cheat sheets and reference sheets
+> ### This is a collection of programming related cheat sheets and reference sheets
 
-**Cheat Sheets -** They contain the daily use **codes**, **properties** and **shortcuts** of the specific tool at one place.
+**Cheat Sheets -** They contain the daily use **codes**, **properties** and **shortcuts** of the specific language/tool at one place.
 
-**Reference Sheets -** They contain useful the **references** , **roadmaps** and **working** of the specific tool that can be used to study the tool easily.
+**Reference Sheets -** They contain useful **references** , **roadmaps** and **working** of the specific language that can be used to study the language/tool easily.
 
 ---
 
 ### Cheat Sheets
 
 - **[Git & Github](./cheatsheets/git.md)**
+- [**Command Line & Vim, Nano**](./cheatsheets/terminal.md)
 
 ---
 
