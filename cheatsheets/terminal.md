@@ -18,7 +18,7 @@
   - [Piping](#piping)
   - [File Permissions](#file-permissions)
 - [**Command Line Tools**](#command-line-tools)
-  - [LESS Editor](#less-editor)
+  - [LESS Viewer](#less-viewer)
   - [Nano Editor](#nano-editor)
   - [Vim editor](#vim-editor)
 
@@ -26,7 +26,7 @@
 
 #  Command Line Cheat Sheet
 
-> This Sheet Contains all the basic command prompt commands, from moving and editing files to shortcuts for using the command line, This File also has Command Line editors' commands.
+> This Sheet Contains all the basic command prompt commands, from moving and editing files to shortcuts for using the command line, This sheet also has commands list of Command Line editors.
 
 ---
 
@@ -40,17 +40,17 @@
 
 - `ls -a` & `ls -la` = list files with extra info
 
-- `ls ./documents ` = lists all the files of the relative path
+- `ls ./documents ` = lists all the files of the relative path [`./` is not necessary]
 
 ### Changing directory
 
 - ``cd folder/sub_folder`` = can be used to go change current directory
 
-- ``cd..`` OR ``cd ../..`` = used to go up directories
+- ``cd ..`` OR ``cd ../..`` = used to go up directories
 
 - `cd` = moves to home directory
 
-- `` cd D:``= to change drive working on
+- `` D:``= to change drive working on [for DOS/Windows]
 
 - `pushd PATH`= changes to specified path and saves the current path
 
@@ -190,7 +190,7 @@ graph TB
 
 
 
-### LESS Editor
+### LESS Viewer
 
 - `less file1` = opens the specific file
 
@@ -209,6 +209,7 @@ graph TB
 | `G`                                | Go to the last line in the file.             |
 | `p`                                | Go to the beginning of the file.             |
 | `Np`                               | Go to N percent into file.                   |
+| `v`                                | Open file in your Preferred CMD editor.      |
 | `h`                                | Display help.                                |
 | `q`                                | Exit `less`.                                 |
 
@@ -369,6 +370,4 @@ And **l**.  **^L** will appear in your text and will cause the printer to start
 A new page.
 
 ---
-```
 
-```
