@@ -25,8 +25,6 @@
 
 > **This sheet contains all the HTML & CSS references that can be used to keep track of everything on their path. This sheet also has explanation & usage of Responsiveness in a website.**
 
-
-
 ## HTML
 
 - **[CHEATSHEET](https://websitesetup.org/html5-cheat-sheet/)** 
@@ -111,12 +109,12 @@
 
 - **Meta Tag -** `<meta name='viewport' content="width=device-width, initial-scale=1.0">`
 
-### Screen Width Usage  
+### Screen Width Usage
 
 - **Desktop First :** use max-width; (higher to lower)
 - **Mobile First :** use min-width (lower to higher)
 
-### Order to apply Media queries  
+### Order to apply Media queries
 
 1. base + typography
 2. general layout
@@ -127,20 +125,22 @@
 ### Handling Images
 
 - **Density Switching -**  high-res (2px for 1px) & low-res(1px for 1px)
-
+  
   - `<img srcset="img1x.png 1x, img2x.png 2x" alt="Image">`
 
 - **Art directions -** different images for different screen
+  
   ```html
   <picture>
       <!-- when lower than 600px -->
-  	<source srcset="imgsmall1x.png 1x, imgsmall2x.png 2x" media="(max-width: 37.5em)"> 
+      <source srcset="imgsmall1x.png 1x, imgsmall2x.png 2x" media="(max-width: 37.5em)"> 
       <!-- using density switching with art directions -->
       <img srcset="img1x.png 1x, img2x.png 2x" alt="img">
   </picture>
   ```
 
 - **Resolution Switching -** large & small screen
+  
   ```html
   <!-- in srcset , the images are specified with their original width-->
   <img srcset="img1.png 300w, img1-large.png 1000w" 
@@ -149,6 +149,7 @@
   ```
 
 - **Handling Images in CSS -** media queries combined with screen res & width
+  
   ```css
   // for resolution greater than 1px and 600px width or webkit is for safari browser
   @media (min-resolution: 192pi) and (min-width:600px) ,
@@ -160,9 +161,10 @@
 ### Feature Queries
 
 - **Browser**
+  
   ```css
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)){
-  	-webkit-backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
       //use only if the browser supports these properties
   }
@@ -182,6 +184,7 @@
 - **Class Naming Convention -** [BEM](https://css-tricks.com/bem-101/)
 
 - **Global Reset**
+  
   ```css
   * {
       margin: 0;
@@ -198,4 +201,5 @@
       */
   }
   ```
+
 ---

@@ -20,11 +20,9 @@
 - [**Command Line Tools**](#command-line-tools)
   - [LESS Viewer](#less-viewer)
   - [Nano Editor](#nano-editor)
-  - [Vim editor](#vim-editor)
+  - [Vim editor](vim-editor)
 
-
-
-#  Command Line Cheat Sheet
+# Command Line Cheat Sheet
 
 > This Sheet Contains all the basic command prompt commands, from moving and editing files to shortcuts for using the command line, This sheet also has commands list of Command Line editors.
 
@@ -60,8 +58,6 @@
 
 - `locate FILE_NAME` = finds all the directories where the file is
 
-  
-
 ---
 
 ## Shortcuts
@@ -80,8 +76,6 @@
 
 - `ctrl+d` OR `exit` : exit the prompt
 
-  
-
 ---
 
 ## Creating Files & Directories
@@ -96,7 +90,7 @@
 
 - `cp from_dir/file to_dir/file`  = copies files , works with files in the current directory if no dir specified
 - `mv old_file_name new_file_name` = move command , when used in the same directory , deletes the old file and makes a new file with the new_file_name (Renaming)
--  `mv from_dir/file to_dir/file` = here move command copies the from file and deletes it , pastes it in to dir
+- `mv from_dir/file to_dir/file` = here move command copies the from file and deletes it , pastes it in to dir
 
 ### Removing Files
 
@@ -114,18 +108,14 @@
 - `cat file1 file2` = prints contents of both files
 - `more file1` = shows the huge text of file in steps , can exit anytime pressing q
 
-
-
 ---
 
 ## MAN (Manual Pager) & Help
 
-  - `man` brings all information about specific command on terminal
-  - Example : ``man bash`` , ``man git``
-  - `whatis COMMAND` =  lets us know what the command does (executables)
-  - `help COMMAND` = information of shell comands (ex. cd)
-
-
+- `man` brings all information about specific command on terminal
+- Example : ``man bash`` , ``man git``
+- `whatis COMMAND` =  lets us know what the command does (executables)
+- `help COMMAND` = information of shell comands (ex. cd)
 
 ---
 
@@ -170,11 +160,6 @@ graph TB
   style ch fill:lightgreen
   end
 ```
-```js
-// above code is a mermaid , currently not supported in github [18-08-20] , adding an image in its place.
-```
-
-![Permissions Graph](./images/cmdPermissions.png)
 
 - `chmod 700 file1` - makes the file read write exec only for user
 - `chmod 744 file1` - makes the file rwx for user , and read for others
@@ -182,13 +167,9 @@ graph TB
 - `chmod 755 file1` - user can rwx and others can rx
 - `chmod 755 dir` - mostly used for directories , rwx[USER] | rx[Group] | rx[Every]
 
-
-
 ---
 
 ## Command Line Tools
-
-
 
 ### LESS Viewer
 
@@ -215,8 +196,6 @@ graph TB
 
 ---
 
-
-
 ### Nano Editor
 
 - `nano` = create new file & open editor
@@ -227,45 +206,43 @@ graph TB
 
 - **Alt** is represented as `M`
 
-| **Commands**      | Actions                      |
-| ----------------- | --------------------------- |
-| Ctrl + O  , `^O` | Save A File                 |
-| Alt + B , `M-B`  | Create a Backup             |
-| ^X | Exit file , with prompt     |
-| M-U   | Undo an action              |
-| ^G                | Get Help                    |
+| **Commands**     | Actions                 |
+| ---------------- | ----------------------- |
+| Ctrl + O  , `^O` | Save A File             |
+| Alt + B , `M-B`  | Create a Backup         |
+| ^X               | Exit file , with prompt |
+| M-U              | Undo an action          |
+| ^G               | Get Help                |
 
-| **Commands**      | Navigate Actions    	          |
-| ----------------- | --------------------------- |
-| ^F                | Move one character forward  |
-| ^B                | Move one character backward |
-| ^Space            | Move one word forward       |
-| M-Space           | Move one work backward      |
-| ^P                | Move to previous line       |
-| ^N                | Move to next line           |
-| ^V                | Move to next page           |
-| ^Y                | Move to previous page       |
-| ^A                | Move to Beginning of line   |
-| ^E                | Move to End of line         |
+| **Commands** | Navigate Actions            |
+| ------------ | --------------------------- |
+| ^F           | Move one character forward  |
+| ^B           | Move one character backward |
+| ^Space       | Move one word forward       |
+| M-Space      | Move one work backward      |
+| ^P           | Move to previous line       |
+| ^N           | Move to next line           |
+| ^V           | Move to next page           |
+| ^Y           | Move to previous page       |
+| ^A           | Move to Beginning of line   |
+| ^E           | Move to End of line         |
 
-| **Commands**      | Search Actions         	          |
-| ----------------- | --------------------------- |
-| ^W                | To open Search prompt       |
-| ^T                | To Search Line Number       |
-| M-W               | Go to Next result           |
-| ^R                | Replace Searched Text       |
+| **Commands** | Search Actions        |
+| ------------ | --------------------- |
+| ^W           | To open Search prompt |
+| ^T           | To Search Line Number |
+| M-W          | Go to Next result     |
+| ^R           | Replace Searched Text |
 
-| **Commands**      | Text Actions         	          |
-| ----------------- | --------------------------- |
-| M-6               | Cut Text / Line             |
-| ^K                | Copy Text / Line            |
-| ^U                | Paste Copied Data           |
+| **Commands** | Text Actions      |
+| ------------ | ----------------- |
+| M-6          | Cut Text / Line   |
+| ^K           | Copy Text / Line  |
+| ^U           | Paste Copied Data |
 
 ---
 
-
-
-###  Vim editor
+### Vim editor
 
 - Changing mode from one to another
 
@@ -276,7 +253,9 @@ graph TB
 #### Text Entry Commands (Used to start text entry)
 
 - **a** =Append text following current cursor position
+
 - **A** = Append text to the end of current line
+
 - **i** = Insert text before the current cursor position
 
 - **I** = Insert text at the beginning of the cursor line
@@ -288,11 +267,13 @@ graph TB
 #### Cursor Movement Commands
 
 - **h** = Moves the cursor one character to the left
+
 - **l** = Moves the cursor one character to the right
 
 - **k** = Moves the cursor up one line
 
 - **j** = Moves the cursor down one line
+
 - **nG or :n** = Cursor goes to the specified (n) line (ex. 10G goes to line 10)
 
 - **^F (CTRl F)** = Forward screenful
@@ -302,20 +283,25 @@ graph TB
 - **^f** = One page forward
 
 - **^b** = One page backward
+
 - **^U** = Up half screenful
 
 - **^D** = Down half screenful
+
 - **$** = Move cursor to the end of current line
 
 - **0 (zero)** = Move cursor to the beginning of current line
 
 - **w** = Forward one word
+
 - **b** = Backward one word
 
 #### Exit Commands
 
 - **:wq** = Write file to disk and quit the editor
+
 - **:q!** = Quit (no warning)
+
 - **:q** = Quit (a warning is printed if a modified file has not been saved)
 
 - **ZZ** = Save workspace and quit the editor (same as :wq)
@@ -323,6 +309,7 @@ graph TB
 #### Text Deletion Commands
 
 - **x** = Delete character
+
 - **dw** = Delete word from cursor on
 
 - **db** = Delete word backward
@@ -336,6 +323,7 @@ graph TB
 #### Yank (has most of the options of delete) -- VI's copy command
 
 - **yy** = yank current line
+
 - **y$** = yank to end of current line from cursor
 
 - **yw** = yank from cursor to end of current word
@@ -350,16 +338,18 @@ graph TB
 - **u** = Undo last change
 
 - **U**  = Restore line
+
 - **J**  = Join next line down to the end of the current line
 
 #### File Manipulation Commands
 
 - **:w** = Write workspace to original file
+
 - **:W** = file Write workspace to named file
+
 - **:e**  = file Start editing a new file
 
 - **:r** = file Read contents of a file to the workspace
-
 
 #### Pages
 
@@ -370,4 +360,3 @@ And **l**.  **^L** will appear in your text and will cause the printer to start
 A new page.
 
 ---
-

@@ -1,7 +1,5 @@
 ![Banner](./images/js.png)
 
-
-
 #### Table Of Contents
 
 **[JavaScript Reference Sheet](#javascript-reference-sheet)**
@@ -9,14 +7,18 @@
 - [References](#references)
 
 - [Basics](#basics)
+
 - [Functions](#functions) 
+
 - [Arrays](#arrays) 
+
 - [Objects & Properties](#objects--properties)
+
 - [Document Object Model (DOM)](#document-object-model-dom)
+
 - [ES6+](#es6)
+
 - [Asynchronous JavaScript](#asynchronous-javascript)
-
-
 
 ---
 
@@ -33,7 +35,9 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
 - Cheat Sheet :  [Link](https://websitesetup.org/javascript-cheat-sheet/)
 
 - All JavaScript Details : [Javascript.info](https://javascript.info)
+
 - JavaScript Documentation : [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/javascript)
+
 - Books : [Eloquent JS](https://eloquentjavascript.net/) | [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
 ---
@@ -41,7 +45,9 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
 ## Basics
 
 - **Console logging**
+
 - **Variable & Datatypes** (using var)
+  
   - Number -  Floating Point numbers & Integers
   - Strings -  For text 
   - Boolean  - true/false logical data type
@@ -49,31 +55,48 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
   - Null - Doesn't Exist 
   - JavaScript is dynamic : data types are automatically assigned
   - Camel Case & Naming Conventions
+
 - **Comments**
+
 - **Mutation** (Changing Data in variable) &  **Coercion** (Data type conversion)
+
 - **Math Operators & Logic Operators**
+  
   - `+ , - , * , / , %` 
   - < , > and <= , >= ...
   - Compare letters according to Unicode ('a' < 'b')
   - `typeof` &  (== & ===)
   - Operator Precedence & Multiple Assignments
   - Operators Shorthand
+
 - **Conditionals** : If else, nested If, if else if 
+
 - **Ternary operator**
+
 - **Switch Statement**
+
 - **Boolean Logic** : && , || , !
+
 - **Truthy and Falsy** values
+  
   - Falsy  values : undefined , null , 0 , '', NaN
   
   - Truthy values : all others give true on coercion 
+
 - **Loops & Iteration**
+
 - **For Loop** 
+  
   - While Loop
   - Continue & Break
+
 - **Error Handling** 
+  
   - Throw
   - try , catch
+
 - **Strict Mode**  (`"use strict"`)
+  
   - It catches some common coding bloopers, throwing exceptions.
   - It prevents, or throws errors, when relatively "unsafe" actions are taken (such as gaining access to the global object).
   - It disables features that are confusing or poorly thought out.
@@ -124,9 +147,12 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
 ## Objects & Properties
 
 - **Basic** Objects (declaration , accessing , mutating)
+  
   - new Object () Syntax
   - Functions in objects (Are methods) 
+
 - **Prototypes & Prototype chains**
+  
   - Prototypes are methods of objects that can be inherited
   - Every inherited object can access its parents prototype 
   - Therefore , we write those methods in prototype that we want other objects to inherit
@@ -134,8 +160,11 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
   - We can check the prototype ,using `object.property` or `object.__proto__`
   - `hasOwnProperty` lets us know if the property is inherited or not
   - `instanceOf` can be used to check what is instance of what
+
 - **Constructors** - used as a blueprint to create multiple objects
+
 - **Constructor Functions** - used to initialize data of object for every instance
+  
   - Creating Constructor using Function
   - convention is to keep first letter capital of constructor
     - object variables are assigned values using `this` statement
@@ -144,16 +173,20 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
     - We can inherit other constructors by using `call` method with parameters of parent constructor
   - Constructors can also be created using `Object.create` , where we specify the prototype first and then specify the data
   - `Object.create(parent.prototype)` can inherit the prototype of parent to child prototype
-  
+
 - **Primitives & Object**
+  
   - Primitives hold the data directly  (number , strings)
   - Objects point the data to other object (objects, arrays)
   - In JavaScript almost Everything is an Object
     - Primitives : Numbers , Strings ,  Booleans, Undefined and Null are not.
     - Primitives can be converted to objects using autoboxing when methods like `string.length` are executed 
     - Everything else is object, Arrays, Functions, Objects...
+
 - Two objects are only equal if they take the same space and position in memory , they wont be equal no matter the keys and properties.
+
 - **Bind, Call & Apply**
+  
   - Call can be used to give a different this pointer and call the function immediately
   - Apply , same as call , but the arguments can be passed only as array
   - Bind , sets `this` and other arguments to the function , then gives the functions so that it can be called with those arguments later
@@ -198,7 +231,7 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
 
 ## Asynchronous JavaScript
 
--  Asynchronous Functions can run in background
+- Asynchronous Functions can run in background
 - **HTTP requests & response** (Old Way)
   - `XMLhttprequest` , `readystatechange`
   - readyState, open, send
@@ -212,18 +245,15 @@ A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**]
   - Promise chaining 
 - **Async/Await** alternative way to consume promises
   - we can use the response promise given by await to check and catch errors.
--  **Fetch Api**  - gives promises that can be consumed using Async/await or promises
--  **Axios** - alternative to fetch , directly returns data in JSON
--  **API** - Application Programming Interface (Remote Server has a part that works as API)
--  **JSON** - JavaScript Object Notation  (json function is available inbuilt in js)
+- **Fetch Api**  - gives promises that can be consumed using Async/await or promises
+- **Axios** - alternative to fetch , directly returns data in JSON
+- **API** - Application Programming Interface (Remote Server has a part that works as API)
+- **JSON** - JavaScript Object Notation  (json function is available inbuilt in js)
 - **AJAX** - Asynchronous Javascript and XML 
 - **CrossOrigins**
-
-
 
 This is Just the Beginning of your Journey in JavaScript , there's always soo much more to explore ! 
 
 A reference to Advanced JavaScript Concepts : [**JavaScript Behind the Scenes**](./jsBehind.md)
 
 ---
-
