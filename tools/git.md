@@ -45,7 +45,9 @@
 
 ## Commiting
 
-- `git commit -m "Specific Changes Made"` = commits the staging area giving them a specific id
+- `git commit -m "Specific Changes Made"` = commits the staging area giving them a specific id 
+
+- 
 
 - `git log` = shows all the commits with details
 
